@@ -1,0 +1,67 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "gender",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "height_cm",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "weight_kg",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "occupation",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lifestyle",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "smoke",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "health_issues",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "training_per_week",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "preffered_sport",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "water_intake_liters",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "sleep_hours",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "goals",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "training_preference",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
